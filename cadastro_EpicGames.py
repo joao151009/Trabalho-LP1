@@ -95,6 +95,8 @@ while True:
                 print("Esse cadastro não existe!")
         elif menu == 4:
             mostrarCadastros()
-
+            editor = int(input("Qual cadastro você deseja editar? (Ex.: 1, 2, 3...): "))
+            editor -= 1
+            
         elif menu == 0:
             break
